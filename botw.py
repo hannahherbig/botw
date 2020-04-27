@@ -1,9 +1,10 @@
-import random
-import socket
-import re
-import toml
 import argparse
+import random
+import re
+import socket
+
 import httpx
+import toml
 
 parser = argparse.ArgumentParser()
 parser.add_argument("-c", "--config", default="config.toml")
