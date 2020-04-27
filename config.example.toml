@@ -1,0 +1,16 @@
+server = "irc.speedrunslive.com"
+port = 6667
+nick = "botw"
+user = "botw"
+real = "botw, by handrew/andrew"
+pass = "pass"
+racebot = "racebot"
+main = "#speedrunslive"
+modes = ["normal", "short", "blackout"]
+
+[checks]
+"goal set: the legend of zelda: ocarina of time - bingo" = "normal"
+"goal set: the legend of zelda: ocarina of time - saturday night bingo" = "normal"
+"goal set: the legend of zelda: ocarina of time - european saturday night bingo" = "normal"
+"goal set: the legend of zelda: ocarina of time - blackout bingo" = "blackout"
+"goal set: the legend of zelda: ocarina of time - short bingo" = "short"
