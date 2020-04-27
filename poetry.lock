@@ -185,7 +185,7 @@ python-versions = ">=3.5"
 version = "1.1.0"
 
 [[package]]
-category = "dev"
+category = "main"
 description = "Python Library for Tom's Obvious, Minimal Language"
 name = "toml"
 optional = false
@@ -214,7 +214,7 @@ secure = ["certifi", "cryptography (>=1.3.4)", "idna (>=2.0.0)", "pyOpenSSL (>=0
 socks = ["PySocks (>=1.5.6,<1.5.7 || >1.5.7,<2.0)"]
 
 [metadata]
-content-hash = "171da14488d7bf602424c7df8de5dfaa8cfdb5b415ef09f6bce7469c9980e573"
+content-hash = "def88f947f7ba7229608c0a72da134d843348561234307204e308c7dac63d36b"
 python-versions = "^3.8"
 
 [metadata.files]
