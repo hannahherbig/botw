@@ -161,7 +161,7 @@ while True:
                                 versions = ", ".join(sorted(config["versions"]))
                                 send(f"PRIVMSG {target} :Invalid version specified. Must be one of: {versions}.")
                         else:
-                            send(f"PRIVMSG {target} :Version: {mode}")
+                            send(f"PRIVMSG {target} :Version: {version}")
                     elif word[0] == "!status":
                         send(f"PRIVMSG {target} :Mode: {mode}. Version: {version}")
                     elif word[0] == "!nobingo":
