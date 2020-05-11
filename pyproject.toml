@@ -12,7 +12,7 @@ toml = "^0.10.0"
 [tool.poetry.dev-dependencies]
 isort = "^4.3.21"
 black = "^19.10b0"
-pre-commit = "^2.3.0"
+pre-commit = "^2.4.0"
 flake8 = "^3.8.0"
 
 [tool.black]
