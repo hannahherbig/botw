@@ -10,7 +10,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument("-c", "--config", default="config.toml")
 args = parser.parse_args()
 
-with open(args.config, "r") as f:
+with open(args.config) as f:
     config = toml.load(f)
 
 rows = [
