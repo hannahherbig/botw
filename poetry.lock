@@ -95,14 +95,14 @@ description = "A minimal low-level HTTP client."
 name = "httpcore"
 optional = false
 python-versions = ">=3.6"
-version = "0.11.1"
+version = "0.12.0"
 
 [package.dependencies]
-h11 = ">=0.8,<0.10"
+h11 = "<1.0.0"
 sniffio = ">=1.0.0,<2.0.0"
 
 [package.extras]
-http2 = ["h2 (>=3.0.0,<4.0.0)"]
+http2 = ["h2 (>=3,<5)"]
 
 [[package]]
 category = "main"
@@ -110,11 +110,11 @@ description = "The next generation HTTP client."
 name = "httpx"
 optional = false
 python-versions = ">=3.6"
-version = "0.15.5"
+version = "0.16.0"
 
 [package.dependencies]
 certifi = "*"
-httpcore = ">=0.11.0,<0.12.0"
+httpcore = ">=0.12.0,<0.13.0"
 sniffio = "*"
 
 [package.dependencies.rfc3986]
@@ -331,7 +331,7 @@ docs = ["proselint (>=0.10.2)", "sphinx (>=3)", "sphinx-argparse (>=0.2.5)", "sp
 testing = ["coverage (>=5)", "coverage-enable-subprocess (>=1)", "flaky (>=3)", "pytest (>=4)", "pytest-env (>=0.6.2)", "pytest-freezegun (>=0.4.1)", "pytest-mock (>=2)", "pytest-randomly (>=1)", "pytest-timeout (>=1)", "pytest-xdist (>=1.31.0)", "packaging (>=20.0)", "xonsh (>=0.9.16)"]
 
 [metadata]
-content-hash = "f29d8a7f8945b0d639a22f01e89c6062829029b72099d37fc8d3a05427277910"
+content-hash = "4c91a7441c33582e5d1eab5e7781055bece95e0faa487ed0c03c5632cdf73683"
 lock-version = "1.0"
 python-versions = "^3.8"
 
@@ -372,12 +372,12 @@ h11 = [
     {file = "h11-0.9.0.tar.gz", hash = "sha256:33d4bca7be0fa039f4e84d50ab00531047e53d6ee8ffbc83501ea602c169cae1"},
 ]
 httpcore = [
-    {file = "httpcore-0.11.1-py3-none-any.whl", hash = "sha256:72cfaa461dbdc262943ff4c9abf5b195391a03cdcc152e636adb4239b15e77e1"},
-    {file = "httpcore-0.11.1.tar.gz", hash = "sha256:a35dddd1f4cc34ff37788337ef507c0ad0276241ece6daf663ac9e77c0b87232"},
+    {file = "httpcore-0.12.0-py3-none-any.whl", hash = "sha256:18c4afcbfe884b635e59739105aed1692e132bc5d31597109f3c1c97e4ec1cac"},
+    {file = "httpcore-0.12.0.tar.gz", hash = "sha256:2526a38f31ac5967d38b7f593b5d8c4bd3fa82c21400402f866ba3312946acbf"},
 ]
 httpx = [
-    {file = "httpx-0.15.5-py3-none-any.whl", hash = "sha256:02326f2d3c61133db31e4b88dd3432479b434e52a68d813eab6db930f13611ea"},
-    {file = "httpx-0.15.5.tar.gz", hash = "sha256:254b371e3880a8e2387bf9ead6949bac797bd557fda26eba19a6153a0c06bd2b"},
+    {file = "httpx-0.16.0-py3-none-any.whl", hash = "sha256:824325d2dfb42ee6e3be31e072199a33e5a98dc2bda76fd6c9a844871948eb73"},
+    {file = "httpx-0.16.0.tar.gz", hash = "sha256:032c624c703cfa3aafe2d3a766150b48bcf8df71e833c1440fa74151da9df143"},
 ]
 identify = [
     {file = "identify-1.5.2-py2.py3-none-any.whl", hash = "sha256:e5cc8ba10ca658c278f841813c5f1556804141c93f82a7e620a938528a0c3f32"},
