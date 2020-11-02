@@ -7,7 +7,7 @@ authors = ["Andrew Herbig <notandrewherbig@gmail.com>"]
 [tool.poetry.dependencies]
 python = "^3.8"
 httpx = "^0.16.1"
-toml = "^0.10.1"
+toml = "^0.10.2"
 
 [tool.poetry.dev-dependencies]
 isort = "^5.6.4"
