@@ -220,7 +220,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
 
 [[package]]
 name = "pyupgrade"
-version = "2.10.0"
+version = "2.11.0"
 description = "A tool to automatically upgrade syntax for newer versions."
 category = "dev"
 optional = false
@@ -328,7 +328,7 @@ testing = ["coverage (>=5)", "coverage-enable-subprocess (>=1)", "flaky (>=3)", 
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "1737cc3ac6e98a31876abfafc3725a0cdfedf2b1ab1d607cad7d37d0672bfc44"
+content-hash = "812d008c9fe43b70394f8083fb40b4460b59bad86e78c8621a96932a53b3b37a"
 
 [metadata.files]
 appdirs = [
@@ -415,8 +415,8 @@ pyflakes = [
     {file = "pyflakes-2.2.0.tar.gz", hash = "sha256:35b2d75ee967ea93b55750aa9edbbf72813e06a66ba54438df2cfac9e3c27fc8"},
 ]
 pyupgrade = [
-    {file = "pyupgrade-2.10.0-py2.py3-none-any.whl", hash = "sha256:b26a00db6e2d745fe5a949e1fd02c5286c3999edaf804f746c69d559c8f8b365"},
-    {file = "pyupgrade-2.10.0.tar.gz", hash = "sha256:601427033f280d50b5b102fed1013b96f91244777772114aeb7e191762cd6050"},
+    {file = "pyupgrade-2.11.0-py2.py3-none-any.whl", hash = "sha256:47cd92db1675a9043bebbe0b67a103b66527883b35e22634060a6bcb99138baa"},
+    {file = "pyupgrade-2.11.0.tar.gz", hash = "sha256:5dcae14b1c9b7ecce5ec42210528eb30a1a2408613da744f2ba4a9b54b344cf6"},
 ]
 pyyaml = [
     {file = "PyYAML-5.3.1-cp27-cp27m-win32.whl", hash = "sha256:74809a57b329d6cc0fdccee6318f44b9b8649961fa73144a98735b0aaf029f1f"},
