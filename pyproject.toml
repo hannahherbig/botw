@@ -10,7 +10,7 @@ httpx = "^0.17.0"
 toml = "^0.10.2"
 
 [tool.poetry.dev-dependencies]
-isort = "^5.7.0"
+isort = "^5.8.0"
 black = "^20.8b1"
 pre-commit = "^2.11.0"
 flake8 = "^3.8.4"
