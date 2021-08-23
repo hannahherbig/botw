@@ -14,7 +14,7 @@ isort = "^5.9.3"
 black = "^21.7b0"
 pre-commit = "^2.14.0"
 flake8 = "^3.9.2"
-pyupgrade = "^2.23.3"
+pyupgrade = "^2.24.0"
 
 [tool.black]
 line-length = 120
