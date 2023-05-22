@@ -391,14 +391,14 @@ files = [
 
 [[package]]
 name = "pyupgrade"
-version = "2.31.1"
+version = "3.4.0"
 description = "A tool to automatically upgrade syntax for newer versions."
 category = "dev"
 optional = false
-python-versions = ">=3.7"
+python-versions = ">=3.8"
 files = [
-    {file = "pyupgrade-2.31.1-py2.py3-none-any.whl", hash = "sha256:4060a7c20c79d373a3dcf34566b275c6de6cd2b034ad22465d3263fb0de82648"},
-    {file = "pyupgrade-2.31.1.tar.gz", hash = "sha256:22e0ad6dd39c4381805cb059f1e691b6315c62c0ebcec98a5f29d22cd186a72a"},
+    {file = "pyupgrade-3.4.0-py2.py3-none-any.whl", hash = "sha256:98b6bee32149f662da1aa038cb9baf93d592ae696059acd613db6ff583583048"},
+    {file = "pyupgrade-3.4.0.tar.gz", hash = "sha256:f6bcf0d5e59170d178a2630e981d0e7b04d9b13f3c0e7e62f3e6bab582f841e4"},
 ]
 
 [package.dependencies]
@@ -519,4 +519,4 @@ test = ["covdefaults (>=2.2.2)", "coverage (>=7.1)", "coverage-enable-subprocess
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.8"
-content-hash = "d62fd6f0911389f110faaf281a800e22a178232d2e0761b93812efd04a63810a"
+content-hash = "4da029f90f562e665377c8d3023a4cdb6f64f8ce8631cfc4b740e0b6a3d7a9ab"
